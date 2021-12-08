@@ -3,6 +3,7 @@ layout: post
 title: "Testing Post"
 date: 2021-12-08
 categories: testing
+featured_image: mememe.jpg
 ---
 
 This is a testing post to see if a new post can be generated.
