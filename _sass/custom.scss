@@ -1,8 +1,12 @@
 site-title {
-  color: 7253ed;
+  color: #7253ed;
   &:visited {
-    color: 7253ed;
+    color: #7253ed;
   }
+}
+
+header .site-header {
+  border: none;
 }
 
 .featured-image {

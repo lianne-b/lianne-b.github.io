@@ -30,6 +30,12 @@ layout: default
     </p>
   </header>
 
+  {% if page.featured_image %}
+  <div class="featured-image">
+    <img src="{{ '/assets/' | append: page.featured_image | relative_url }}" />
+  </div>
+  {% endif %}
+
   <div class="post-content e-content" itemprop="articleBody">{{ content }}</div>
 
   {%- if site.disqus.shortname -%} {%- include disqus_comments.html -%} {%-
@@ -37,9 +43,3 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
-
-{% if page.featured_image %}
-<div class="featured-image">
-  <img src="{{ '/assets/' | append: page.featured_image | relative_url }}" />
-</div>
-{% endif %}
