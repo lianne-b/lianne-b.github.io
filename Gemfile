@@ -1,43 +1,49 @@
-source "https://rubygems.org"
+source 'https://rubygems.org/'
 
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
+ruby '2.6.7'
+gem 'json'                          # JSON
+gem 'foreman'                       # Process management
+gem 'racksh'
+gem 'thin'
+gem 'rack-cors', :require=> 'rack/cors'
+gem 'sprockets'
+gem 'rake'
+gem 'jekyll', '~> 4.2.1'
+gem "minima", "~> 2.5"
 
-
-gem 'jekyll', github: 'jekyll/jekyll'
-gem "minima", "~> 2.5.1"
-gem "html-proofer"
-gem "jekyll-paginate"
-gem "jekyll-sitemap"
-gem "mini_magick"
-gem "sass"
-gem "uglifier"
-gem "webrick", "~> 1.7"
-gem 'activeadmin', github: 'activeadmin'
-
-
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-  gem "bourbon"
-  gem "neat"
-  gem "rouge"
-  gem "jekyll-watch"
+# Formatting
+gem 'nokogiri'
+gem 'chronic'
+gem 'htmlentities', '~> 4.3', '>= 4.3.4'
+# DB
+gem 'activerecord', '~> 5.0.0'      # Database
+gem 'redis', '~>3.2'
+# API Framework
+gem 'grape'
+group :development do
+  gem 'rb-readline'
+  gem 'rerun'
+  gem 'mina' # Deployment
+end
+group :test do
+  gem 'test-unit'
+  gem "rack-test", require: "rack/test"
+  gem 'test_xml'
+  gem 'bogus'
+  gem 'database_cleaner'
+  gem 'timecop'
+end
+group :development, :test do
+  gem 'awesome_print'
+  gem 'pry'
 end
 
-# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
-# and associated library.
-platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", "~> 1.2"
-  gem "tzinfo-data"
+install_if -> { RUBY_VERSION > '3.1' } do
+  gem "net-smtp"
 end
 
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
-
+group :documentation do
+  gem 'yard', '>= 0.8.5.2'
+  gem 'redcarpet' unless RUBY_PLATFORM =~ /java|mswin/
+end
