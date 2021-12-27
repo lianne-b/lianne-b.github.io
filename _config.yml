@@ -3,7 +3,7 @@ short_logo: YC # Shown in header on all pages by default unless full_logo: true 
 description: > # The description for your site
   A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
 url: "https://ritijjain.github.io/pudhina-fresh" # Site base URL
-author: Yen Choi
+author:
   name: Yen Ye Eun Choi
   github: yenchoi010 # GitHub username, used for GitHub icon on the top right
   linkedin: # Your LinkedIn profile url name, used for LinkedIn icon on the top right
