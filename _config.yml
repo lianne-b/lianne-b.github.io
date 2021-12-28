@@ -1,10 +1,10 @@
-title: Yen Choi # Shown in header on pages with full_logo: true
-short_logo: YC # Shown in header on all pages by default unless full_logo: true is set
+title: yenchoi_ # Shown in header on pages with full_logo: true
+short_logo: yenchoi_ # Shown in header on all pages by default unless full_logo: true is set
 description: > # The description for your site
   A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
-url: "https://ritijjain.github.io/pudhina-fresh" # Site base URL
+url: "https://yenchoi010.github.io" # Site base URL
 author:
-  name: Yen Ye Eun Choi
+  name: Yen Choi
   github: yenchoi010 # GitHub username, used for GitHub icon on the top right
   linkedin: # Your LinkedIn profile url name, used for LinkedIn icon on the top right
   email: example@example.com # Used for email icon on the top right
