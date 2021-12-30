@@ -1,3 +1,4 @@
+
 function switch_dark_mode_icon(darkmode, id) {
     darkmode.toggle();
     render_dark_mode_icon(darkmode, id);
@@ -11,8 +12,8 @@ function render_dark_mode_icon(darkmode, id) {
     if (darkmode.isActivated()) {
         document.getElementById(id).classList.remove('fa-sun');
         document.getElementById(id).classList.add('fa-moon');
-        for (i = 0; i < x.length; i++) {
-            x[i].style["mix-blend-mode"] = "difference";
+       for (i = 0; i < x.length; i++) {
+          x[i].style["mix-blend-mode"] = "difference";
         }
 
     } else {
