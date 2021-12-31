@@ -350,7 +350,7 @@ a:hover {
 }
 
 .caption {
-  /* text-align: center; */
+  text-align: left;
 }
 
 .post-card-image {
