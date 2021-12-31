@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+::selection {
+  color: white;
+  background: #8565fc;
+}
+
 a {
   color: #8565fc;
   text-decoration: none;
