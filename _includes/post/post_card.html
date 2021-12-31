@@ -10,14 +10,10 @@
             ></b
           >
         </h4>
+
         <p class="post-title__subtitle">
           Published {{ post.date | date: "%b %e, 20%y" }} {% if post.updated %}
-          {% endif %}
-          <!--{% if post.pin
-          %} • Pinned ⭐{% endif %} -->
-        </p>
-        <p>
-          <!--<p>{{ post.content | strip_html | truncatewords: 10 }}</p>-->
+          {% endif %} {% if post.pin %} • Pinned ⭐{% endif %}
         </p>
       </div>
 
