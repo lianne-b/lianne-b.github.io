@@ -6,7 +6,7 @@
 }
 
 a {
-  color: #8565fc;
+  color: #333e4c;
   text-decoration: none;
 }
 
@@ -14,6 +14,7 @@ p,
 ul,
 ol,
 dl {
+  color: #333e4c;
   font-size: 100%;
   line-height: 32px;
 }
@@ -24,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #212529;
+  color: #333e4c;
   padding-top: 20px;
   font-weight: 500;
 }
@@ -52,7 +53,7 @@ blockquote {
 }
 
 .wrapper {
-  max-width: 80%;
+  max-width: 50%;
   margin: 60px auto;
 }
 
@@ -102,14 +103,14 @@ th {
 a.logo:hover {
   font-size: 300%;
   font-weight: 700;
-  color: #653bfc;
+  color: #798eaa;
   display: block;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: none;
-  color: #d2e900;
+  color: #8565fc;
 }
 
 .menu {
@@ -162,7 +163,7 @@ a:hover {
 .page-title__subtitle {
   font-weight: 400;
   font-size: 40%;
-  color: #828282;
+  color: #8565fc;
 }
 
 /* =Post teasers */ /*************************************************************/
@@ -304,7 +305,7 @@ a:hover {
   }
 
   .wrapper {
-    width: 90%;
+    max-width: 90%;
     margin: 15px auto;
   }
 
@@ -326,8 +327,14 @@ a:hover {
   }
 }
 
+.card {
+  border: none;
+  border-radius: 0;
+  border-bottom: solid 1px #ebebeb;
+}
+
 .card-body {
-  height: 50%;
+  padding: 0;
 }
 
 .card .btn {
@@ -342,7 +349,6 @@ a:hover {
 
 /* Card hover effect */
 .card:hover {
-  box-shadow: 2px 4px 8px 0 #00000010;
 }
 
 .splash-img {
@@ -354,6 +360,7 @@ a:hover {
 }
 
 .post-card-image {
+  display: none;
   border-radius: 0.25rem;
   width: 100%;
   height: 100%;

@@ -26,6 +26,8 @@ index: true # When false, <meta name="robots" content="noindex"> is added to the
 
 #### **2021년이 내게 남긴 것들**
 
+---
+
 ##### **1. 자기돌봄 <span class="darkmode-ignore">❤️‍🩹</span>**
 
 2020년 중반에 개인적으로 큰 상실을 겪었고, 이런 저런 상황과 고민들에 진로 문제까지 얹혀져 20년 말부터 21년 상반기까지는 마음이 심각하게 아픈 지경에 이르렀었다. 하지만 크게 아프고 좌절했던 것 만큼 더 의식적으로 스스로를 돌보는 데에 열성을 쏟은 한 해였고, 그 결과 현재 나는 꽤나 만족할만한 생활 습관과 패턴을 영위하게 되었다. 올 상반기에 적었던 목표 중 하나가 ‘자신을 사랑하는 연습 해보기’였는데, 연습을 너무 열심히 한 탓인지 지금은 거의 뭐 나르시스트 수준이 됐다(?)
@@ -41,6 +43,8 @@ index: true # When false, <meta name="robots" content="noindex"> is added to the
 <br>
 
 #### **2022년에 도전할 것들**
+
+---
 
 ##### **1. 좋은 협업이란? <span class="darkmode-ignore">🧑‍💻</span>**
 
