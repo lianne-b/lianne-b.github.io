@@ -5,6 +5,11 @@
   background: #8565fc;
 }
 
+.darkmode--activated::selection {
+  color: rgb(0, 0, 0);
+  background: #7fa100;
+}
+
 a {
   color: #333e4c;
   text-decoration: none;
@@ -307,6 +312,7 @@ a:hover {
   .wrapper {
     max-width: 90%;
     margin: 15px auto;
+    z-index: -1;
   }
 
   .navigation,
@@ -340,11 +346,13 @@ a:hover {
 .card .btn {
   position: relative;
   z-index: 1;
+  isolation: isolate;
 }
 
 .card .badge {
   position: relative;
   z-index: 1;
+  isolation: isolate;
 }
 
 /* Card hover effect */
@@ -373,7 +381,36 @@ a:hover {
 }
 
 .darkmode-layer {
-  z-index: 0;
+  z-index: 1;
+}
+
+.darkmode--activated p,
+.darkmode--activated li,
+.darkmode--activated a,
+.darkmode--activated h1,
+.darkmode--activated h2,
+.darkmode--activated h3,
+.darkmode--activated h4,
+.darkmode--activated h5,
+.darkmode--activated h6 {
+  color: rgb(0, 0, 0);
+}
+
+.darkmode--activated a:hover {
+  color: #7fa100;
+}
+
+.darkmode--activated .big_text,
+.darkmode--activated .badge .badge-primary {
+  background-color: #7fa100;
+}
+
+.post-subheading {
+  color: #8565fc;
+}
+
+.darkmode--activated .post-subheading {
+  color: #354400;
 }
 
 /* =Glitch effect, Source: http://codepen.io/bulby97/pen/fcvay */ /*************************************************************/
