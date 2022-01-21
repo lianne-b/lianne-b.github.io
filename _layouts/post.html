@@ -1,13 +1,12 @@
 ---
 layout: default
 ---
-<br>
-<br>
-{% include post/title.html %}
 
-{% include post/splash_image.html %}
+<br />
+<br />
+{% include post/title.html %} {% include post/splash_image.html %}
 
-<br>
-<div class="post_wrapper">
-    {{ content }}
-</div>
+<br />
+<div class="post_wrapper">{{ content }}</div>
+
+<a href="#" onclick="animationToTop(event)" class="scroll-top">Scroll to top</a>

@@ -153,6 +153,10 @@ a:hover {
   margin-left: 10px;
 }
 
+.darkmode--activated .fa-moon:before {
+  color: #2a00c0;
+}
+
 /* =Titles */ /*************************************************************/
 .page-title {
   margin: 30px auto;
@@ -240,6 +244,19 @@ a:hover {
 
 .center-text {
   text-align: center;
+}
+
+/**** Scroll to top button *****/
+.scroll-top {
+  background-color: #8565fc;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.darkmode--activated .scroll-top {
+  color: rgb(0, 0, 0);
+  background: #7fa100;
 }
 
 /* =Page navigation */ /*************************************************************/
