@@ -35,6 +35,10 @@ h6 {
   font-weight: 500;
 }
 
+.supplementary-text {
+  color: #818b9b;
+}
+
 img {
   border-radius: 0.25rem;
   display: block;
