@@ -76,3 +76,4 @@ index: true # When false, <meta name="robots" content="noindex"> is added to the
 <span class="darkmode-ignore">💭</span> 자취방 얻기 / 꾸미기<br>
 <span class="darkmode-ignore">💭</span> 뉴스 챙겨보기<br>
 <span class="darkmode-ignore">💭</span> 감정 표현 많이 하기 / 특히 좋은 감정 바로 바로 전달하기
+<span class="darkmode-ignore">💭</span> 프.. 플랭크 3분 (중간에 쉬지 않고)

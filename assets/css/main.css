@@ -434,6 +434,17 @@ a:hover {
   color: #354400;
 }
 
+/* =Photo */ /*************************************************************/
+.photo-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-page_image {
+  width: 100%;
+  height: 100%;
+}
+
 /* =Glitch effect, Source: http://codepen.io/bulby97/pen/fcvay */ /*************************************************************/
 .glitch {
   position: relative;
