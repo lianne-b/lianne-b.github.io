@@ -1,3 +1,7 @@
 - name: nature
-  img_src: /assets/img/photos/nature.JPG
+  img_src: /assets/img/photos/nature.jpg
+  page.splash_img_caption: ㅇㅇㅇㅇㅇ
+
+- name: forest
+  img_src: /assets/img/photos/001.jpg
   page.splash_img_caption: ㅇㅇㅇㅇㅇ
