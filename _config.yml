@@ -1,11 +1,11 @@
-title: Yen's Personal Page # Shown in header on pages with full_logo: true
-short_logo: Yen's Personal Page # Shown in header on all pages by default unless full_logo: true is set
+title: Lianne's Personal Page # Shown in header on pages with full_logo: true
+short_logo: Lianne's Personal Page # Shown in header on all pages by default unless full_logo: true is set
 description: > # The description for your site
   Thoughts & Records ☀️
-url: "https://yenchoi010.github.io" # Site base URL
+url: "https://lianne-b.github.io" # Site base URL
 author:
-  name: Yen Choi
-  github: yenchoi010 # GitHub username, used for GitHub icon on the top right
+  name: Lianne
+  github: lianne-b # GitHub username, used for GitHub icon on the top right
   linkedin: # Your LinkedIn profile url name, used for LinkedIn icon on the top right
   email: example@example.com # Used for email icon on the top right
   homepage: # This links to your name in post meta
