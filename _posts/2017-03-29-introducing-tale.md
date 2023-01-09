@@ -1,33 +1,25 @@
 ---
 layout: post
-title:  "Introducing Tale"
-author: "Chester"
-comments: true
+title:  "한글 폰트 테스트"
+comments: false
 tags: Tale
 excerpt_separator: <!--more-->
 sticky: true
 hidden: true
 ---
 
-Tale is a minimal [Jekyll](https://jekyllrb.com/) theme curated for storytellers. It is designed and developed by [myself](https://github.com/chesterhow/) for a friend who writes short stories.<!--more-->
+한글 폰트 테스트합니다.
+한글 한글. 오오. 잘 나오나요.
+한 글 쵝 오 
+<!--more-->
 
-## Tale features
-- Compatible with GitHub Pages
-- Responsive design (looks just as good on mobile)
-- Syntax highlighting, with the help of Pygments
-- Markdown and HTML text formatting
-- Pagination of posts
-- Sticky posts
-- Tags
-- Excerpt management
-- Disqus comments
+## 헤딩2
+- 잘 나오는구만 
+- 하이하이하이하이
 
-Head over to the [Example Content]({{ site.baseurl }}/2017-03-16/example-content) post for a showcase of Tale's text formatting features.
+### 헤딩3
+따봉 👍🏼
 
-## Browser Support
-Tale works on most if not all modern browsers, including Chrome, Safari and Firefox 👍🏼
-
-## Download or Contribute
-Tale is publicly hosted on GitHub, so go ahead and download or fork it at the [GitHub repository](https://github.com/chesterhow/tale). If you spot any bugs or have any suggestions, feel free to create an issue or make a pull request.
-
-Thanks for checking out Tale!
+##### 헤딩5 
+#### 헤딩4 
+# 대빵 헤딩

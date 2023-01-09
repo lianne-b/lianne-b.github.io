@@ -1,6 +1,6 @@
 # Site settings
-title:          Yeeun-blog
-description:    "Ye Eun's Blog"
+title:          Lianne's Archive 💭
+description:    "Ye Eun Choi"
 baseurl:        ""
 url:            "https://lianne-b.github.io"
 
@@ -9,8 +9,8 @@ google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
+  name:         yenchoi
+  url:          https://lianne-b.github.io/
   email:        chesterhow@gmail.com
 
 # Build settings
