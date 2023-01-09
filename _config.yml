@@ -1,7 +1,7 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
+title:          Yeeun-blog
+description:    "Ye Eun's Blog"
+baseurl:        ""
 url:            "https://lianne-b.github.io"
 
 # Google Analytics
