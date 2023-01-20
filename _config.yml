@@ -1,15 +1,15 @@
 # Site settings
 title:          Lianne's Archive 💭
-description:    "Ye Eun Choi"
+description:    "Lianne Choi"
 baseurl:        ""
 url:            "https://lianne-b.github.io"
 
 # Google Analytics
-google_analytics: UA—XXXXXXXX-X
+google_analytics: G-ETJPR6E0TN
 
 # Author
 author:
-  name:         yenchoi
+  name:         lianne
   url:          https://lianne-b.github.io/
   email:        chesterhow@gmail.com
 
