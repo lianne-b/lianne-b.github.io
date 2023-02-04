@@ -1,7 +1,6 @@
 # Site settings
 title:          Lianne's Archive 💭
 description:    "Lianne Choi"
-baseurl:        ""
 url:            "https://lianne-b.github.io"
 
 # Google Analytics
